@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(){
         allButtons[i].addEventListener('click', function() {
             searchBar.style.visibility = 'visible';
             searchBar.classList.add('open');
-            this.setAttribute('aria-expanded', 'true');
+            this.setAttribute('aria-expanded', 'true')
             searchInput.focus();
 
         });
